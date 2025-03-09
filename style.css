@@ -2,9 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
     body{
         font-family: 'Times New Roman', Times, serif;
+        background-color: rgb(248, 249, 250);
     }
 
     /* --""-- */
@@ -34,3 +36,12 @@
                 height: 32px;
                 font-weight: 600;
             }
+
+    /* --""-- */
+
+    #main{
+        display: grid;
+        grid-template-columns: 15% 83%;
+        gap: 2%;
+        padding: 0 70px 0 40px;
+    }
