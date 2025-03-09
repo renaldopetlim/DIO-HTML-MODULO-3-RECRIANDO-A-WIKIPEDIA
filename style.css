@@ -32,7 +32,5 @@
             .box-search button{
                 width: 92px;
                 height: 32px;
+                font-weight: 600;
             }
-                .box-search button p{
-                    font-weight: 600;
-                }
