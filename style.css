@@ -6,3 +6,33 @@
     body{
         font-family: 'Times New Roman', Times, serif;
     }
+
+    /* --""-- */
+
+    #header{
+        display: flex;
+        padding: 15px 0 15px 40px;
+    }
+        .logo{
+            display: flex;
+            padding: 0 50px 0 10px;
+            flex-direction: column;
+            gap: 4px;
+            justify-content: center;
+        }
+        .box-search{
+            display: flex;
+            align-items: center;
+        }
+            .box-search input{
+                width: 380px;
+                height: 32px;
+                padding: 10px;
+            }
+            .box-search button{
+                width: 92px;
+                height: 32px;
+            }
+                .box-search button p{
+                    font-weight: 600;
+                }
