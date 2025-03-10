@@ -76,9 +76,6 @@
         table thead{
             background-color: rgb(194, 198, 206);
         }
-            table thead tr{
-                    
-            }
                 table thead tr th{
                     border: 1px solid;
                     padding: 10px;
@@ -86,9 +83,6 @@
         table tbody{
             background-color: rgb(240, 240, 240);
         }
-            table tbody tr{
-                
-            }
                 table tbody tr td{
                     border: 1px solid;
                     padding: 4px;
