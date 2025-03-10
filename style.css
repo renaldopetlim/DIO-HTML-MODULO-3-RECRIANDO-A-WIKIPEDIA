@@ -18,6 +18,9 @@
     #header{
         display: flex;
         padding: 15px 0 15px 40px;
+        position: fixed;
+        background-color: rgb(248, 249, 250);
+        width: 100%;
     }
         .logo{
             display: flex;
@@ -40,6 +43,9 @@
                 height: 32px;
                 font-weight: 600;
             }
+    #span-header{
+        height: 80px;
+    }
 
     /* --""-- */
 
