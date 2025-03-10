@@ -49,41 +49,44 @@
         gap: 2%;
         padding: 0 70px 0 40px;
     }
-        .aside div{
-            display: grid;
-            gap: 8px;
+        .aside{
+            position: fixed;
         }
-            .aside div a{
-                color: rgb(50, 100, 225);
-                text-decoration: none;
+            .aside div{
+                display: grid;
+                gap: 8px;
             }
-                .aside-sub{
-                    padding: 0 0 0 25px;
+                .aside div a{
+                    color: rgb(50, 100, 225);
+                    text-decoration: none;
                 }
+                    .aside-sub{
+                        padding: 0 0 0 25px;
+                    }
     /* --""-- */
-        .article h1{
-            padding: 0 0 8px 0;
-        }
-        .article h2{
-            padding: 0 0 5px 0;
-        }
-            .text-article{
-                padding: 8px 0 4px 0;
+            .article h1{
+                padding: 0 0 8px 0;
             }
-        .article h4{
-            padding: 8px 0 0 0;
-        }
-        table thead{
-            background-color: rgb(194, 198, 206);
-        }
-                table thead tr th{
-                    border: 1px solid;
-                    padding: 10px;
+            .article h2{
+                padding: 0 0 5px 0;
+            }
+                .text-article{
+                    padding: 8px 0 4px 0;
                 }
-        table tbody{
-            background-color: rgb(240, 240, 240);
-        }
-                table tbody tr td{
-                    border: 1px solid;
-                    padding: 4px;
-                }
+            .article h4{
+                padding: 8px 0 0 0;
+            }
+            table thead{
+                background-color: rgb(194, 198, 206);
+            }
+                    table thead tr th{
+                        border: 1px solid;
+                        padding: 10px;
+                    }
+            table tbody{
+                background-color: rgb(240, 240, 240);
+            }
+                    table tbody tr td{
+                        border: 1px solid;
+                        padding: 4px;
+                    }
