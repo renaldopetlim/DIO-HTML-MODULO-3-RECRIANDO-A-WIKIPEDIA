@@ -1,6 +1,3 @@
-
-
-
 ### Cabeçalho (`#header`)
 - Configurado como `fixed` para manter-se visível durante a rolagem.
 - Contém uma logo e uma caixa de pesquisa com um botão.
